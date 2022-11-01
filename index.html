@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Свойства FLEX-контейнера</h1>
+    <div class="container">
+        <div class="gen_info">
+            <div class="num">
+                <p>1</p>
+            </div>
+            <div class="content">
+                <p>display: flex;</p>
+                <h4>Назначение: <span>делает все дочерние элементы гибкими </span></h4>
+
+            </div>
+        </div>
+        <div class="super_examples">
+            <div class="examples">
+                <div class="xmpl">
+                    <div class="rectangle"></div>
+                    <div class="rectangle"></div>
+                    <div class="rectangle"></div>
+                </div>
+                <p class="conten">flex</p>
+            </div>
+            <div class="examples1">
+                <div class="xmpl1">
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                </div>
+                <p class="conten">inline-flex</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="gen_info">
+            <div class="num">
+                <p>2</p>
+            </div>
+            <div class="content">
+                <p>flex-direction:row;</p>
+                <h4>Назначение: <span>расставляет дочерние элементы по осям x и y </span></h4>
+
+            </div>
+        </div>
+        <div class="super_examples">
+            <div class="examples3">
+                <div class="xmpl3">
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                </div>
+                <p class="conten">row</p>
+            </div>
+            <div class="examples4">
+                <div class="xmpl4">
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                </div>
+                <p class="conten">row-reverce</p>
+            </div>
+        </div>
+        <div class="super_examples">
+            <div class="examples5">
+                <div class="xmpl5">
+                    <div class="rectangle_reverce "></div>
+                    <div class="rectangle_reverce "></div>
+                    <div class="rectangle_reverce "></div>
+                </div>
+                <p class="conten">column</p>
+            </div>
+            <div class="examples6">
+                <div class="xmpl6">
+                    <div class="rectangle_reverce "></div>
+                    <div class="rectangle_reverce "></div>
+                    <div class="rectangle_reverce "></div>
+                </div>
+                <p class="conten">column-reverce</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="gen_info">
+            <div class="num">
+                <p>3</p>
+            </div>
+            <div class="content">
+                <p>flex-wrap: nowrap;</p>
+                <h4>Назначение: <span>размещает элементы в несколько строк </span></h4>
+
+            </div>
+        </div>
+        <div class="super_examples">
+            <div class="examples7">
+                <div class="xmpl7">
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                </div>
+                <p class="conten">nowrap</p>
+            </div>
+            <div class="examples8">
+                <div class="xmpl8">
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                </div>
+                <p class="conten">wrap</p>
+            </div>
+        </div>
+        <div class="super_examples">
+            <div class="examples9">
+                <div class="xmpl9">
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                </div>
+                <p class="conten">wrap-reverce</p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="gen_info">
+            <div class="num">
+                <p>4</p>
+            </div>
+            <div class="content">
+                <p>flex-flow:  row nowrap;</p>
+                <h4>Назначение: <span>flex-flow является короткой версией  flex-direction и flex-wrap  </span></h4>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="gen_info">
+            <div class="num">
+                <p>5</p>
+            </div>
+            <div class="content">
+                <p>justify-content: flex-start;</p>
+                <h4>Назначение: <span>выравнивание элеметов на выбранной оси </span></h4>
+
+            </div>
+        </div>
+        <div class="super_examples">
+            <div class="examples10">
+                <div class="xmpl10">
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    
+                </div>
+                <p class="conten">flex-start</p>
+            </div>
+            <div class="examples11">
+                <div class="xmpl11">
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    
+                    
+                </div>
+                <p class="conten">flex-end</p>
+            </div>
+        </div>
+        <div class="super_examples">
+            <div class="examples12">
+                <div class="xmpl12">
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    
+                </div>
+                <p class="conten">center</p>
+            </div>
+            <div class="examples13">
+                <div class="xmpl13">
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    
+                    
+                </div>
+                <p class="conten">space-between</p>
+            </div>
+        </div>
+        <div class="super_examples">
+            <div class="examples14">
+                <div class="xmpl14">
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    
+                
+                </div>
+                <p class="conten">space-around</p>
+            </div>
+            <div class="examples15">
+                <div class="xmpl15">
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    
+                
+                </div>
+                <p class="conten">space-evenly</p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="gen_info">
+            <div class="num">
+                <p>6</p>
+            </div>
+            <div class="content">
+                <p>align-items:stretch;</p>
+                <h4>Назначение: <span>выравнивание вдоль поперечной линии </span></h4>
+
+            </div>
+        </div>
+        <div class="super_examples">
+            <div class="examples16">
+                <div class="xmpl16">
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle "></div>
+                    
+                </div>
+                <p class="conten">stretch</p>
+            </div>
+            <div class="examples17">
+                <div class="xmpl17">
+                    <div class="rectangle_square "></div>
+                    <div class="rectangle_square "></div>
+                    <div class="rectangle_square "></div>
+                    <div class="rectangle_square "></div>
+                    
+                    
+                </div>
+                <p class="conten">flex-start</p>
+            </div>
+        </div>
+        <div class="super_examples">
+            <div class="examples18">
+                <div class="xmpl18">
+                    <div class="rectangle_square "></div>
+                    <div class="rectangle_square "></div>
+                    <div class="rectangle_square "></div>
+                    <div class="rectangle_square "></div>
+                    
+                </div>
+                <p class="conten">flex-end</p>
+            </div>
+            <div class="examples19">
+                <div class="xmpl19">
+                    <div class="rectangle_square "></div>
+                    <div class="rectangle_square "></div>
+                    <div class="rectangle_square "></div>
+                    <div class="rectangle_square "></div>
+                    
+                    
+                </div>
+                <p class="conten">center</p>
+            </div>
+        </div>
+        <div class="super_examples">
+            <div class="examples20">
+                <div class="xmpl20">
+                    <div class="rectangle_mini "></div>
+                    <div class="rectangle_square "></div>
+                    <div class="rectangle "></div>
+                    <div class="rectangle_square "></div>
+                    
+                
+                </div>
+                <p class="conten">baseline</p>
+            </div>
+            
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="gen_info">
+            <div class="num">
+                <p>7</p>
+            </div>
+            <div class="content">
+                <p>align-content:flex-start</p>
+                <h4>Назначение: <span>выравнивание строк вдоль поперечной линии </span></h4>
+
+            </div>
+        </div>
+        <div class="super_examples">
+            <div class="examples21">
+                <div class="xmpl21">
+                    <div class="rectangle_mini "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    
+                </div>
+                <p class="conten">stretch</p>
+            </div>
+            <div class="examples22">
+                <div class="xmpl22">
+                    <div class="rectangle_mini "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    
+                    
+                </div>
+                <p class="conten">flex-start</p>
+            </div>
+        </div>
+        <div class="super_examples">
+            <div class="examples23">
+                <div class="xmpl23">
+                    <div class="rectangle_mini "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    
+                </div>
+                <p class="conten">flex-end</p>
+            </div>
+            <div class="examples24">
+                <div class="xmpl24">
+                    <div class="rectangle_mini "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    
+                    
+                </div>
+                <p class="conten">center</p>
+            </div>
+        </div>
+        <div class="super_examples">
+            <div class="examples25">
+                <div class="xmpl25">
+                    <div class="rectangle_mini "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    
+                
+                </div>
+                <p class="conten">space-between</p>
+            </div>
+            <div class="examples26">
+                <div class="xmpl26">
+                    <div class="rectangle_mini "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini "></div>
+                    <div class="rectangle_mini  "></div>
+                    <div class="rectangle_mini  "></div>
+                    
+                   
+                    
+                
+                </div>
+                <p class="conten">space-around</p>
+            </div>
+            
+        </div>
+    </div>
+    <h1>Свойства FLEX-элемента</h1>
+    <div class="container">
+        <div class="gen_info1">
+            <div class="num">
+                <p>1</p>
+            </div>
+            <div class="content">
+                <p>order:0;</p>
+                <h4>Назначение: <span>порядок растановки FLEX-элементов </span></h4>
+
+            </div>
+        </div>
+        
+        <div class="super_examples1">
+            
+            <div class="exampleso">
+                <p class="conteno">order:0 order:1</p>                
+                <div class="orderxmpl">
+                    <div class="num_order">1</div>
+                    <div class="num_order">2</div>
+                    <div class="num_order">3</div>
+                    <div class="num_order">4</div>
+                    <div class="num_order">5</div>
+                </div>
+                <p class="conteno">order:-1 order:0 order:2</p>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="gen_info2">
+            <div class="num">
+                <p>2</p>
+            </div>
+            <div class="content">
+                <p>flex-shrink:0;</p>
+                <h4>Назначение: <span>указывает фактор растягивания у выбранного элемента </span></h4>
+
+            </div>
+        </div>
+        
+        <div class="super_exampleso">
+            
+            <div class="exampleso">
+                               
+                <div class="orderxmpl1">
+                    <div class="num_order1">1</div>
+                    <div class="num_order1">2</div>
+                    <div class="num_order1">3</div>
+                    <div class="num_order1">4</div>
+                    <div class="num_order1">5</div>
+                </div>
+                <p class="conteno">flex-grow:1 </p>
+                
+            </div>
+            <div class="exampleso2">
+                               
+                <div class="orderxmpl2">
+                    <div class="num_order2">1</div>
+                    <div class="num_order2">2</div>
+                    <div class="num_order2">3</div>
+                    <div class="num_order2">4</div>
+                    <div class="num_order2">5</div>
+                </div>
+                <p class="conteno">flex-grow:3</p>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="gen_info2">
+            <div class="num">
+                <p>3</p>
+            </div>
+            <div class="content">
+                <p>flex-shrink:0;</p>
+                <h4>Назначение: <span>указывает фактор сужения у выбранного элемента </span></h4>
+
+            </div>
+        </div>
+        
+        <div class="super_exampleso">
+            
+            <div class="exampleso">
+                               
+                <div class="orderxmpl3">
+                    <div class="num_order3">1</div>
+                    <div class="num_order3">2</div>
+                    <div class="num_order3">3</div>
+                    <div class="num_order3">4</div>
+                    <div class="num_order3">5</div>
+                </div>
+                <p class="conteno">flex-shrink:1 </p>
+                
+            </div>
+            <div class="exampleso4">
+                               
+                <div class="orderxmpl4">
+                    <div class="num_order4">1</div>
+                    <div class="num_order4">2</div>
+                    <div class="num_order4">3</div>
+                    <div class="num_order4">4</div>
+                    <div class="num_order4">5</div>
+                </div>
+                <p class="conteno">flex-shrink:0</p>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="gen_info2">
+            <div class="num">
+                <p>4</p>
+            </div>
+            <div class="content">
+                <p>flex-basis:auto;</p>
+                <h4>Назначение: <span>указывает исходный размер у выбранного элемента </span></h4>
+
+            </div>
+        </div>
+        
+        <div class="super_exampleso">
+            
+            <div class="exampleso">
+                               
+                <div class="orderxmpl5">
+                    <div class="num_order5">1</div>
+                    <div class="num_order5">2</div>
+                    <div class="num_order5">3</div>
+                    <div class="num_order5">4</div>
+                    <div class="num_order5">5</div>
+                </div>
+                <p class="conteno">flex-basis:auto </p>
+                
+            </div>
+            <div class="exampleso6">
+                               
+                <div class="orderxmpl6">
+                    <div class="num_order6">1</div>
+                    <div class="num_order6">2</div>
+                    <div class="num_order6">3</div>
+                    <div class="num_order6">4</div>
+                    <div class="num_order6">5</div>
+                </div>
+                <p class="conteno">flex-basis:50px</p>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="gen_info2">
+            <div class="num">
+                <p>5</p>
+            </div>
+            <div class="content">
+                <p>flex: 0 1 auto;</p>
+                <h4>Назначение: <span>сокращенная запись flex-grow, flex-shrink и flex-basis </span></h4>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="gen_info2">
+            <div class="num">
+                <p>6</p>
+            </div>
+            <div class="content">
+                <p>aling-self:auto;</p>
+                <h4>Назначение: <span>переопределяет выравнивание элемента по умолчанию </span></h4>
+
+            </div>
+        </div>
+        
+        <div class="super_exampleso">
+            
+            <div class="exampleso">
+                <p class="conteno">align-self:flex-start</p>                
+                <div class="orderxmpl7">
+                    <div class="rectangle1"></div>
+                    <div class="rectangle1"></div>
+                    <div class="rectangle_mini1"></div>
+                    <div class="rectangle_mini1"></div>
+                    <div class="rectangle1"></div>
+                </div>
+                <p class="conteno">align-self:flex-end</p>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+</body>
+
+</html>
